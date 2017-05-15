@@ -27,3 +27,13 @@
 *.exe
 *.out
 *.app
+
+# Temporary folders
+Debug/
+Release/
+
+# Keep the fuzzylite binaries (x86)
+!lib/fuzzylite*
+
+# VS shits
+*.VC.*
